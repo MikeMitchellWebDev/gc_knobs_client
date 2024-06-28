@@ -21,3 +21,5 @@ You don't need the gc_knobs_client to use gc_knobs. You can also use gc_knobs wi
 
 curl -H 'Content-Type: application/json' -d '{"path":"/path/to/rails", "repeat":"50", "sleep":"2"}' -X POST  http://localhost:8000/git_repo
 
+You may want to use gc_knobs_client to create a steady state and then do individual curl requests to create transitory heap speaks of varying sizes. 
+
